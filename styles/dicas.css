@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*font-family: "Poppins", sans-serif;*/
+/*font-family: "Open Sans", sans-serif;*/
+
+main {
+    width: 70%;
+    margin: auto;
+    box-shadow:0px 12px 32px -9px rgba(0, 0, 0, 0.315);
+    padding: 145px 150px 150px 150px;
+    height: 1650px;
+}
+
+header a{
+    position: relative;
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    color: #545454;
+    font-size: 20px;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #545454;
+    text-align: justify;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+.img-texto{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.img-texto h1{
+    margin-left: 60px;
+    font-size: 25px;
+
+}
+
+/*--------------------Dicas---------------------*/
+
+.img-dicas{
+    width: 220px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.container-dicas{
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.dica{
+    width: 230px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dica p {
+    text-align: center;
+}
+
+.img-dica{
+    width: 70px;
+    margin: 10px 0 15px 0;
+}
+
+/*-----------------Cores Dicas----------------*/
+
+.vc {
+    background-color: #f7ffe9; /*verde claro*/
+}
+
+.ve {
+    background-color: #effdd7; /*verde escuro*/
+}
+
+/*-----------------Quiz-------------------------*/
+.quiz{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz p{
+    width: 70%;
+}
+
+.btn{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-quiz {
+    background-color: #d5edab;
+    color: #235122;
+    padding: 13px 35px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-quiz:hover {
+    background-color: #b5d3a5;
+    transition: 0.3s;
+    transform: scale(1.08);
+}
+
+
+/*---------------------Ondas----------------------s*/
+
+.onda-sup{
+    position: absolute;
+    top: -50;
+    left: 0;
+    width: 470px;
+}
+
+.onda-dir{
+    position: absolute;
+    top: 600px;
+    right: 0;
+    width: 250px;
+}
+
+.onda-inf {
+    position: absolute;
+    bottom: -1125px;
+    left: 0;
+    width: 100%;
+}
