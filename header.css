@@ -11,6 +11,7 @@ header {
     padding: 30px;
     font-family: "Open Sans", sans-serif;
     color: #027361;
+    height: 85px;
 }
 
 nav {
@@ -22,12 +23,15 @@ nav {
 
 img.logo {
     width: 200px;
+    right: 50px;
     align-self: center;
+    position: absolute;
+    z-index: 2;
 }
 
 nav a{
     text-decoration: none;
-    font-size: 17;
+    font-size: 18px;
 }
 
 nav a.atual {
