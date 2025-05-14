@@ -156,17 +156,3 @@ a.artigo p {
     width: 470px;
     z-index: 2;
 }
-
-.onda-dir {
-    position: absolute;
-    top: 600px;
-    right: 0;
-    width: 250px;
-}
-
-.onda-inf {
-    position: absolute;
-    bottom: -1125px;
-    left: 0;
-    width: 100%;
-}
