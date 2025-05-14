@@ -13,7 +13,6 @@ main {
     margin: auto;
     box-shadow:0px 12px 32px -9px rgba(0, 0, 0, 0.315);
     padding: 145px 150px 150px 150px;
-    height: 1650px;
 }
 
 header a{
@@ -125,6 +124,33 @@ section{
     background-color: #b5d3a5;
     transition: 0.3s;
     transform: scale(1.08);
+}
+
+/*---------------marcas-----------------------*/
+.container-texto{
+    display: flex;
+    margin: 20px;
+}
+
+.nome-marca{
+    font-family: "Open Sans", sans-serif;
+    color: #545454;
+    font-size: 18px;
+}
+
+.logomarcas{
+    width: 160px;
+    height: 160px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #d5edab;
+    margin-right:30px;
+}
+
+.link-marca{
+    color: #235122;
+    text-decoration: underline;
 }
 
 
