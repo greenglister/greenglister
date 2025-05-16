@@ -61,23 +61,14 @@ ul {
 }
 
 /*------------------Calculadora-------------------*/
-/*.container-calc{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-bottom: 50px;
-}*/
-
 .container-calc {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px 60px; /* ou o espaçamento que estiver usando */
-    justify-content: flex-start; /* importante manter */
+    gap: 20px 60px;
+    justify-content: flex-start; 
     margin-bottom: 50px;
 }
 
-/* Centralizar último item se for sozinho na linha */
 .container-calc .card-calc:nth-last-child(1):nth-child(odd) {
     margin-left: auto;
     margin-right: auto;
