@@ -61,22 +61,58 @@ ul {
 }
 
 /*------------------Calculadora-------------------*/
+.container-calc{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
 .card-calc {
     width: 350px;
+    max-height: 280px;
     border-radius: 10px;
     border: 1px solid #599e10;
     background-color: #f3ffde;
 }
 
+.nome-secao{
+    background-color: #e7fcc3;
+    border-radius: 10px;
+    padding: 7px;
+    color: #245223;
+    text-align: center;
+    border: 1px solid #599e10;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
 .nome-card {
     background-color: #e7fcc3;
     width: 100%;
+    text-align: center;
+    color: #245223;
+    font-size: 18px;
     padding: 10px;
     border-radius: 10px 10px 0 0;
+    font-weight: normal;
 }
 
 .icon-texto {
     margin: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-texto p{
+    text-align: left;
+}
+
+.icon-texto img {
+    height: 70px;
+    margin-right: 20px;
 }
 
 select {
@@ -90,7 +126,29 @@ select {
     margin-bottom: 30px;
 }
 
-/*---------------------Ondas----------------------s*/
+.subir {
+    margin-bottom: 10px;
+}
+
+.btn-calcular{
+    display: block;
+    margin: auto;
+    background-color: #8cb98d;
+    color: #fff;
+    border: 1px solid #235122;
+    padding: 8px 50px;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-calcular:hover {
+    background-color: #599e10;
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+/*---------------------Ondas----------------------*/
 
 .onda-sup {
     position: absolute;

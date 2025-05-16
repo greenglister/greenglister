@@ -36,7 +36,8 @@
         <section>
             <h1>Por que a pegada de carbono é importante?</h1>
             <br>
-            <p>A crise climática é um dos maiores desafios que enfrentamos atualmente. O aumento das emissões de gases de efeito estufa está diretamente relacionado ao aquecimento global, às mudanças climáticas e à perda da biodiversidade. Calcular nossa pegada de carbono nos permite compreender como nossos hábitos contribuem para essa situação e, mais importante ainda, como podemos reduzi-la. Ao nos tornarmos conscientes das nossas emissões, podemos tomar decisões mais responsáveis e sustentáveis, tanto em nível individual quanto coletivo. É uma maneira prática de converter informação em ação.</p>
+            <p>A crise climática é um dos maiores desafios que enfrentamos atualmente. O aumento das emissões de gases de efeito estufa está diretamente relacionado ao aquecimento global, às mudanças climáticas e à perda da biodiversidade. Calcular nossa pegada de carbono nos permite compreender como nossos hábitos contribuem para essa situação e, mais importante ainda, como podemos reduzi-la. Ao nos tornarmos conscientes das nossas emissões, podemos tomar decisões mais responsáveis e sustentáveis, tanto em nível individual quanto coletivo. É uma maneira prática de converter informação em ação.
+            <a href="#calc" style="color: #599e10; text-decoration: underline;">Quero calcular!</a></p>
         </section>
 
         <section>
@@ -45,7 +46,7 @@
             <p>O termo “pegada de carbono” tem origem na década de 1990, como um desdobramento do conceito de pegada ecológica, criado pelos pesquisadores Mathis Wackernagel e William Rees. Enquanto a pegada ecológica mede o impacto humano sobre os recursos naturais de forma geral, a pegada de carbono foca especificamente nas emissões de gases que contribuem para o efeito estufa. Essa métrica ganhou destaque com o avanço das pesquisas sobre mudanças climáticas e tornou-se uma ferramenta essencial para quem busca viver de forma mais sustentável.</p>
         </section>
 
-        <section>
+        <section  id="calc">
             <h1>Como calculamos sua pegada de carbono?</h1>
             <br>
             <p>A calculadora de pegada de carbono considera diferentes áreas da sua rotina e transforma suas respostas em estimativas de emissão de CO₂ equivalente com base em médias globais e nacionais. Os principais fatores avaliados são:</p>
@@ -57,19 +58,19 @@
             </ul>
             <p>Esses dados são cruzados com valores médios de emissão obtidos de fontes confiáveis, como o IPCC (Painel Intergovernamental sobre Mudanças Climáticas), agências ambientais e instituições de pesquisa. O resultado final mostra sua emissão anual estimada em toneladas de CO₂ equivalente.</p>
 
-            <br><br><br>
+            <br><br>
 
             <p>Agora, use a Calculadora de Pegada de Carbono e descubra como suas escolhas afetam o planeta. Receba um panorama do seu impacto ambiental e veja sugestões práticas para reduzir suas emissões. <br>
             🌎<em>Cada passo conta na construção de um futuro mais verde e equilibrado.</em></p>
         </section>
 
         <section>
-            <h2>TRANSPORTE</h2>
+            <h2 class="nome-secao">TRANSPORTE</h2>
             <div class="container-calc">
                 <div class="card-calc">
                     <h3 class="nome-card">TRANSPORTE</h3>
                     <div class="icon-texto">
-                        <img src="" alt="">
+                        <img src="imgs/icons-calc/transporte/onibus.png" alt="onibus">
                         <p>Com que frequência você utiliza transporte público (ônibus, metrô, trem)?</p>
                     </div>
                     <select class="select-pontuacao">
@@ -79,25 +80,385 @@
                         <option value="2">Raramente/Nunca</option>
                     </select>
                 </div>
+
+                <div class="card-calc">
+                    <h3 class="nome-card">TRANSPORTE</h3>
+                    <div class="icon-texto">
+                        <img src="imgs/icons-calc/transporte/km.png" alt="km">
+                        <p>Quantos quilômetros, em média, você percorre por dia com o carro?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">	&#8249; 10km</option>
+                        <option value="1">10-30 km</option>
+                        <option value="2">30+ km</option>
+                    </select>
+                </div>
+
+                <div class="card-calc">
+                    <h3 class="nome-card">TRANSPORTE</h3>
+                    <div class="icon-texto">
+                        <img src="imgs/icons-calc/transporte/carro.png" alt="carro">
+                        <p>Com que frequência você utiliza um carro?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Nunca</option>
+                        <option value="1">Raramente</option>
+                        <option value="2">Diariamente</option>
+                    </select>
+                </div>
+
+                <div class="card-calc">
+                    <h3 class="nome-card">TRANSPORTE</h3>
+                    <div class="icon-texto">
+                        <img src="imgs/icons-calc/transporte/gasolina.png" alt="gasolina.png">
+                        <p>Seu carro é movido a qual tipo de combustível?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Elétrico</option>
+                        <option value="1">Híbrido</option>
+                        <option value="2">Gasolina/Diesel</option>
+                        <option value="1">Etanol/GNV</option>
+                    </select>
+                </div>
+
+                <div class="card-calc">
+                    <h3 class="nome-card">TRANSPORTE</h3>
+                    <div class="icon-texto">
+                        <img src="imgs/icons-calc/transporte/rua.png" alt="rua">
+                        <p>Você faz viagens longas (acima de 100 km) com frequência?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Nunca</option>
+                        <option value="1">Raramente</option>
+                        <option value="2">Frequentemente</option>
+                    </select>
+                </div>
+
+                <div class="card-calc">
+                    <h3 class="nome-card">TRANSPORTE</h3>
+                    <div class="icon-texto">
+                        <img src="imgs/icons-calc/transporte/andar.png" alt="andar.png">
+                        <p>Você costuma andar de bicicleta ou caminhar para distâncias curtas?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Sempre</option>
+                        <option value="1">Às vezes</option>
+                        <option value="2">Raramente/Nunca</option>
+                    </select>
+                </div>
+            </div>
+
+            <h2 class="nome-secao">CONSUMO DE ENERGIA</h2>
+            <div class="container-calc">
+                <div class="card-calc">
+                    <h3 class="nome-card">CONSUMO DE ENERGIA</h3>
+                    <div class="icon-texto">
+                        <img src="imgs/icons-calc/energia/fontes.png" alt="fontes de energia">
+                        <p>Qual é a sua principal fonte de energia em casa?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Solar/Eólica</option>
+                        <option value="1">Elétrica</option>
+                        <option value="2">Gás</option>
+                    </select>
+                </div>
+
+                <div class="card-calc">
+                    <h3 class="nome-card">CONSUMO DE ENERGIA</h3>
+                    <div class="icon-texto">
+                        <img src="imgs/icons-calc/energia/luz.png" alt="lampada">
+                        <p>Qual é o seu consumo médio mensal de energia elétrica?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">&#8249; 100 kWh</option>
+                        <option value="1">100-200 kWh</option>
+                        <option value="2">200+ kWh</option>
+                    </select>
+                </div>
+
+                <div class="card-calc">
+                    <h3 class="nome-card">CONSUMO DE ENERGIA</h3>
+                    <div class="icon-texto subir">
+                        <img src="imgs/icons-calc/energia/eletrodomesticos.png" alt="eletrodomesticos">
+                        <p>Você utiliza dispositivos de baixo consumo de energia (LEDs, eletrodomésticos eficientes)?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Sim</option>
+                        <option value="1">Alguns</option>
+                        <option value="2">Não</option>
+                    </select>
+                </div>
+
+                <div class="card-calc">
+                    <h3 class="nome-card">CONSUMO DE ENERGIA</h3>
+                    <div class="icon-texto">
+                        <img src="imgs/icons-calc/energia/eletronicos.png" alt="eletronicos">
+                        <p>Com que frequência você desliga aparelhos eletrônicos quando não estão em uso?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Sempre</option>
+                        <option value="1">Às vezes</option>
+                        <option value="2">Raramente/Nunca</option>
+                    </select>
+                </div>
+            </div>
+
+            <h2 class="nome-secao">ALIMENTAÇÃO</h2>
+            <div class="container-calc">
+                <div class="card-calc">
+                    <h3 class="nome-card">ALIMENTAÇÃO</h3>
+                    <div class="icon-texto">
+                        <img src="imgs/icons-calc/comida/comida-animal.png" alt="comida de origem animal">
+                        <p>Você consome alimentos de origem animal?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Nunca</option>
+                        <option value="1">Raramente</option>
+                        <option value="2">Sempre</option>
+                    </select>
+                </div>
+
+                <div class="card-calc">
+                    <h3 class="nome-card">ALIMENTAÇÃO</h3>
+                    <div class="icon-texto">
+                        <img src="imgs/icons-calc/comida/carne.png" alt="carne vermelha">
+                        <p>Com que frequência você consome carne vermelha (bovina, suína)?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Nunca</option>
+                        <option value="1">Raramente</option>
+                        <option value="2">Sempre</option>
+                    </select>
+                </div>
+
+                <div class="card-calc">
+                    <h3 class="nome-card">ALIMENTAÇÃO</h3>
+                    <div class="icon-texto">
+                        <img src="imgs/icons-calc/comida/organico.png" alt="maçã">
+                        <p>Você costuma consumir produtos orgânicos?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Sempre</option>
+                        <option value="1">Às vezes</option>
+                        <option value="2">Nunca</option>
+                    </select>
+                </div>
+
+                <div class="card-calc">
+                    <h3 class="nome-card">ALIMENTAÇÃO</h3>
+                    <div class="icon-texto">
+                        <img src="imgs/icons-calc/comida/mercado.png" alt="mercado">
+                        <p>Qual a origem dos alimentos que você consome?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Local</option>
+                        <option value="1">Nacional</option>
+                        <option value="2">Internacional</option>
+                    </select>
+                </div>
+
+                <div class="card-calc centro">
+                    <h3 class="nome-card">ALIMENTAÇÃO</h3>
+                    <div class="icon-texto">
+                        <img src="imgs/icons-calc/comida/fast-food.png" alt="fast-food">
+                        <p>Você consome alimentos processados com frequência (fast food, embutidos)?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Nunca</option>
+                        <option value="1">Raramente</option>
+                        <option value="2">Frequentemente</option>
+                    </select>
+                </div>
+            </div>
+
+            <h2 class="nome-secao">RESÍDUOS E RECICLAGEM</h2>
+            <div class="container-calc">
+                <div class="card-calc">
+                    <h3 class="nome-card">RESÍDUOS E RECICLAGEM</h3>
+                    <div class="icon-texto">
+                        <img src="imgs/icons-calc/reciclagem/reciclagem-lixo.png" alt="separar lixo">
+                        <p>Você pratica a separação de lixo reciclável e orgânico?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Sempre</option>
+                        <option value="1">Às vezes</option>
+                        <option value="2">Nunca</option>
+                    </select>
+                </div>
+
+                <div class="card-calc">
+                    <h3 class="nome-card">RESÍDUOS E RECICLAGEM</h3>
+                    <div class="icon-texto subir">
+                        <img src="imgs/icons-calc/reciclagem/plastico.png" alt="plásticos">
+                        <p>Você utiliza produtos de uso único, como garrafas plásticas e sacolas, com frequência?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Nunca</option>
+                        <option value="1">Às vezes</option>
+                        <option value="2">Sempre</option>
+                    </select>
+                </div>
+
+                <div class="card-calc">
+                    <h3 class="nome-card">RESÍDUOS E RECICLAGEM</h3>
+                    <div class="icon-texto">
+                        <img src="imgs/icons-calc/reciclagem/reutilizar.png" alt="reutilizar">
+                        <p>Você costuma comprar produtos de segunda mão ou reutilizados?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Sempre</option>
+                        <option value="1">Às vezes</option>
+                        <option value="2">Nunca</option>
+                    </select>
+                </div>
+            </div> 
+
+            <h2 class="nome-secao">HÁBITOS DE CONSUMO</h2>
+            <div class="container-calc">
+                <div class="card-calc">
+                    <h3 class="nome-card">HÁBITOS DE CONSUMO</h3>
+                    <div class="icon-texto">
+                        <img src="imgs/icons-calc/consumo/compra-online.png" alt="compra online">
+                        <p>Você costuma fazer compras online?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Nunca</option>
+                        <option value="1">Às vezes</option>
+                        <option value="2">Frequentemente</option>
+                    </select>
+                </div>
+
+                <div class="card-calc">
+                    <h3 class="nome-card">HÁBITOS DE CONSUMO</h3>
+                    <div class="icon-texto subir">
+                        <img src="imgs/icons-calc/reciclagem/plastico.png" alt="plásticos">
+                        <p>Quando compra, você prioriza produtos com embalagens sustentáveis ou ecológicas?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Nunca</option>
+                        <option value="1">Raramente</option>
+                        <option value="2">Frequentemente</option>
+                    </select>
+                </div>
+
+                <div class="card-calc">
+                    <h3 class="nome-card">HÁBITOS DE CONSUMO</h3>
+                    <div class="icon-texto">
+                        <img src="imgs/icons-calc/consumo/roupa.png" alt="roupas">
+                        <p>Você tem o hábito de comprar roupas novas com frequência?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Nunca</option>
+                        <option value="1">Raramente</option>
+                        <option value="2">Frequentemente</option>
+                    </select>
+                </div>
+            </div>
+
+            <h2 class="nome-secao">USO DE ÁGUA</h2>
+            <div class="container-calc">
+                <div class="card-calc">
+                    <h3 class="nome-card">USO DE ÁGUA</h3>
+                    <div class="icon-texto">
+                        <img src="imgs/icons-calc/agua/banho.png" alt="banho longo">
+                        <p>Você costuma tomar banhos longos? (Mais que 10 minutos)</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Nunca</option>
+                        <option value="1">Às vezes</option>
+                        <option value="2">Frequentemente</option>
+                    </select>
+                </div>
+
+                <div class="card-calc">
+                    <h3 class="nome-card">USO DE ÁGUA</h3>
+                    <div class="icon-texto subir">
+                        <img src="imgs/icons-calc/agua/torneira.png" alt="torneira">
+                        <p>Você utiliza dispositivos para reduzir o consumo de água (ex: torneiras de baixo fluxo, chuveiro economizador)?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Sempre</option>
+                        <option value="1">Às vezes</option>
+                        <option value="2">Nunca</option>
+                    </select>
+                </div>
+
+                <div class="card-calc">
+                    <h3 class="nome-card">USO DE ÁGUA</h3>
+                    <div class="icon-texto">
+                        <img src="imgs/icons-calc/agua/regador.png" alt="regador">
+                        <p>Você reutiliza água em casa (ex: para regar plantas, limpar a casa)?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Sempre</option>
+                        <option value="1">Às vezes</option>
+                        <option value="2">Nunca</option>
+                    </select>
+                </div>
+            </div>
+
+            <h2 class="nome-secao">OUTROS</h2>
+            <div class="container-calc">
+                <div class="card-calc">
+                    <h3 class="nome-card">OUTROS</h3>
+                    <div class="icon-texto subir">
+                        <img src="imgs/icons-calc/outros/carro-eletrico.png" alt="carro elétrico">
+                        <p>Você utiliza transporte de baixo impacto ambiental, como carona compartilhada ou transporte elétrico?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Sempre</option>
+                        <option value="1">Às vezes</option>
+                        <option value="2">Nunca</option>
+                    </select>
+                </div>
+
+                <div class="card-calc">
+                    <h3 class="nome-card">OUTROS</h3>
+                    <div class="icon-texto subir">
+                        <img src="imgs/icons-calc/outros/energia-renovavel.png" alt="energia renovável">
+                        <p>Você possui ou utiliza fontes de energia renovável, como energia solar ou eólica, em casa?</p>
+                    </div>
+                    <select class="select-pontuacao">
+                        <option value="" selected hidden>Selecione</option>
+                        <option value="0">Sim, possuo</option>
+                        <option value="1">Utilizo de alguma forma</option>
+                        <option value="2">Não utilizo</option>
+                    </select>
+                </div>
+            </div>
+
+            <button type="submit" onclick="calcularPontuacao()" class="btn-calcular">CALCULAR</button>
+
+            <div id="resultado">
             </div>
         </section>
 
     </main>
-    <!--
-        <div class="card-calc">
-                    <h3>TRANSPORTE</h3>
-                    <div class="icon-texto">
-                        <img src="" alt="">
-                        <p></p>
-                    </div>
-                    <select name="" id="">
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                    </select>
-        </div>
-    -->
+    <script src="scripts/calc.js"></script>
 </body>
 
 </html>
