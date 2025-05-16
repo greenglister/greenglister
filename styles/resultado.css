@@ -149,3 +149,11 @@ p {
     width: 450px;
     z-index: -1;
 }
+
+.co2{
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    width: 250px;
+    z-index: -1;
+}
