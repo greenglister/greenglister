@@ -171,10 +171,8 @@ a.artigo p {
               MEDIA QUERIES
 ========================================
 */
-/* Responsividade para telas entre 1200px e 1440px */
-@media screen and (min-width: 1200px) and (max-width: 1440px) {
+@media screen and (min-width: 1220px) and (max-width: 1440px) {
 
-    /* Ajusta largura máxima para evitar que o conteúdo fique muito esticado */
     main {
         padding: 130px 120px 120px 120px;
         height: 2600px;
@@ -209,28 +207,36 @@ a.artigo p {
     .artigos-container {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 20px;
     }
 
-    .artigos-container>div {
-        flex: 1 1 calc(48% - 10px);
-        max-width: 45%;
+    .nome-artigo {
+        font-size: 15px;
+    }
+
+    a.artigo{
+        width: 300px;
+    }
+
+    a.artigo p {
+        font-size: 13px;
     }
 
     .img-artigo {
-        width: 150px;
+        width: 130px;
+    }
+
+    .section-noticias{
+        top: 2060px;
     }
 
     .noticias-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        gap: 10px;
     }
 
     .img-noticia {
-        width: 250px;
+        width: 300px;
     }
 
     #voltar {
