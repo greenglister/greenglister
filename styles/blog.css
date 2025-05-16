@@ -156,3 +156,13 @@ a.artigo p {
     width: 470px;
     z-index: 2;
 }
+
+#voltar{
+    z-index: 2;
+    position: absolute;
+    right: 405px;
+    top: 2820px;
+    font-family: "Poppins", sans-serif;
+    color: #8f8f8f;
+    font-size: 14px;
+}

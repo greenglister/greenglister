@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenGlister</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon -->
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <img src="imgs/onda-sup.png" class="onda-sup">
+    <header>
+        <nav>
+            <a href="index.html" class="link-nav">Início</a>
+            <a href="dicas.html" class="link-nav">Dicas Sustentáveis</a>
+            <a href="blog.html" class="link-nav">Blog</a>
+            <a href="calc.html" class="link-nav">Calculadora</a>
+        </nav>
+        <img src="imgs/logo.png" alt="logo" class="logo"> <!--Logo-->
+    </header>
+
+    <main>
+        <section class="sobre-nos">
+            <div class="img-texto">
+                <img src="imgs/quiz.png" alt="quiz" class="img-quiz">
+                <div>
+                    <h1>Teste seus conhecimentos sobre Sustentabilidade!</h1> <br>
+                    <p>Responda às perguntas abaixo e descubra o quanto você sabe sobre práticas sustentáveis e os
+                        Objetivos de Desenvolvimento Sustentável (ODS).</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="container-progresso">
+            <div class="barra-progresso" id="barraProgresso"></div>
+        </div>
+
+        <section>
+            <div id="quiz">
+                <!-- Questões serão carregadas aqui -->
+            </div>
+            <div class="resultado" id="resultado"></div>
+        </section>
+    </main>
+</body>
+<script src="quiz.js"></script>
+
+</html>

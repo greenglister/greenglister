@@ -66,10 +66,10 @@ section{
 
 .dica{
     width: 230px;
+    height: 255px;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -79,8 +79,18 @@ section{
 
 .img-dica{
     width: 70px;
-    margin: 10px 0 15px 0;
+    margin: 10px 0;
 }
+
+.maiores{
+    width: 80px;
+}
+
+#bike{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
 
 /*-----------------Cores Dicas----------------*/
 
@@ -132,6 +142,10 @@ section{
     margin: 20px;
 }
 
+.marca{
+    margin-bottom: 40px;
+}
+
 .nome-marca{
     font-family: "Open Sans", sans-serif;
     color: #545454;
@@ -172,7 +186,17 @@ section{
 
 .onda-inf {
     position: absolute;
-    bottom: -1125px;
+    bottom: -3000px;
     left: 0;
     width: 100%;
+}
+
+#voltar{
+    z-index: 2;
+    position: absolute;
+    right: 375px;
+    top: 3425px;
+    font-family: "Poppins", sans-serif;
+    color: #8f8f8f;
+    font-size: 14px;
 }

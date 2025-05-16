@@ -77,6 +77,18 @@ ul {
     color: #545454;
 }
 
+.container-ods{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.img-ods{
+    width: 160px;
+    border-radius: 10px;
+}
+
 .onda-sup{
     position: absolute;
     top: 0;
@@ -86,14 +98,24 @@ ul {
 
 .onda-dir{
     position: absolute;
-    top: 660px;
+    top: 860px;
     right: 0;
     width: 250px;
 }
 
 .onda-inf {
     position: absolute;
-    bottom: -1276px;
+    bottom: -1825px;
     left: 0;
     width: 100%;
+}
+
+#voltar{
+    z-index: 2;
+    position: absolute;
+    right: 710px;
+    top: 2290px;
+    font-family: "Poppins", sans-serif;
+    color: #b6b6b6;
+    font-size: 14px;
 }
