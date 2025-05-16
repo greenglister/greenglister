@@ -8,7 +8,7 @@
 /*font-family: "Poppins", sans-serif;*/
 /*font-family: "Open Sans", sans-serif;*/
 
-body{
+body {
     overflow-y: hidden;
 }
 
@@ -117,7 +117,7 @@ section {
     margin-bottom: 30px;
 }
 
-.resultado a{
+.resultado a {
     display: block;
     width: 175px;
     margin: auto;
@@ -137,4 +137,29 @@ section {
     top: 0;
     left: 0;
     width: 400px;
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1450px) {
+
+    .img-quiz {
+        width: 180px;
+        margin-bottom: 0px;
+    }
+
+    .img-texto h1 {
+        margin-left: 60px;
+        font-size: 1.em;
+    }
+
+    .img-texto p {
+        font-size: 0.9em;
+    }
+
+    .opcoes button {
+        font-size: 0.9em;
+    }
+
+    .question {
+        margin-bottom: 10px;
+    }
 }

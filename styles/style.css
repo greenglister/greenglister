@@ -110,12 +110,8 @@ ul {
     width: 100%;
 }
 
-#voltar{
-    z-index: 2;
-    position: absolute;
-    right: 710px;
-    top: 2290px;
-    font-family: "Poppins", sans-serif;
-    color: #b6b6b6;
-    font-size: 14px;
+@media screen and (min-width: 1300px) and (max-width: 1450px){
+    .onda-inf{
+        bottom: -2085px;
+    }
 }

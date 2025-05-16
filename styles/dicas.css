@@ -191,12 +191,14 @@ section{
     width: 100%;
 }
 
-#voltar{
-    z-index: 2;
-    position: absolute;
-    right: 375px;
-    top: 3425px;
-    font-family: "Poppins", sans-serif;
-    color: #8f8f8f;
-    font-size: 14px;
+@media screen and (min-width: 1300px) and (max-width: 1440px){
+    
+
+    .onda-sup {
+        left: -15px;
+    }
+
+    .onda-inf {
+        bottom: -3500px
+    }
 }

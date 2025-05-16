@@ -157,3 +157,13 @@ p {
     width: 250px;
     z-index: -1;
 }
+
+@media screen and (min-width: 1300px) and (max-width: 1450px){
+    .onda-sup{
+        width: 330px;
+    }
+
+    .co2{
+        width: 200px;
+    }
+}
