@@ -171,7 +171,7 @@ a.artigo p {
               MEDIA QUERIES
 ========================================
 */
-@media screen and (min-width: 1220px) and (max-width: 1440px) {
+@media screen and (min-width: 1300px) and (max-width: 1440px) {
 
     main {
         padding: 130px 120px 120px 120px;
@@ -179,9 +179,8 @@ a.artigo p {
     }
 
     .onda-sup {
-        width: 420px;
+        width: 410px;
     }
-
 
     .iframes {
         display: flex;
@@ -214,7 +213,7 @@ a.artigo p {
     }
 
     a.artigo{
-        width: 300px;
+        width: 350px;
     }
 
     a.artigo p {
@@ -226,7 +225,7 @@ a.artigo p {
     }
 
     .section-noticias{
-        top: 2060px;
+        top: 1960px;
     }
 
     .noticias-container {
