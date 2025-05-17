@@ -142,14 +142,6 @@ p {
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.3); 
 }
 
-.onda-sup {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 450px;
-    z-index: -1;
-}
-
 .co2{
     position: absolute;
     bottom: 30px;
@@ -159,9 +151,6 @@ p {
 }
 
 @media screen and (min-width: 1300px) and (max-width: 1450px){
-    .onda-sup{
-        width: 330px;
-    }
 
     .co2{
         width: 200px;

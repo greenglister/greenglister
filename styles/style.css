@@ -89,13 +89,6 @@ ul {
     border-radius: 10px;
 }
 
-.onda-sup{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 470px;
-}
-
 .onda-dir{
     position: absolute;
     top: 860px;
@@ -114,4 +107,19 @@ ul {
     .onda-inf{
         bottom: -2085px;
     }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px){
+    .onda-inf{
+        bottom: -2240px;
+    }
+
+    .img-home{
+        width: 120px;
+    }
+
+    .img-texto h2{
+        font-size: 0.9em;
+    }
+
 }

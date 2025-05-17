@@ -155,14 +155,6 @@ select {
 
 /*---------------------Ondas----------------------*/
 
-.onda-sup {
-    position: absolute;
-    top: -50;
-    left: 0;
-    width: 470px;
-    z-index: 2;
-}
-
 @media screen and (min-width: 1300px) and (max-width: 1450px) {
     main {
         padding: 145px 140px 10px 140px;
@@ -170,9 +162,23 @@ select {
 
     .card-calc {
         width: calc(50% - 30px);
-        /* 2 por linha com gap de 60px */
         height: auto;
-        /* Deixa o conteúdo ajustar a altura */
+        max-height: none;
+    }
+
+    .subir {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+    main {
+        padding: 145px 135px 10px 135px;
+    }
+
+    .card-calc {
+        width: calc(50% - 30px);
+        height: auto;
         max-height: none;
     }
 
@@ -180,8 +186,7 @@ select {
         margin-bottom: 10px;
     }
 
-    .onda-sup {
-        width: 430px;
-        left: -20px;
+    .icon-texto p {
+        font-size: 0.9em;
     }
 }

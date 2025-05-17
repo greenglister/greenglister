@@ -130,15 +130,6 @@ section {
     font-weight: bold;
 }
 
-/*---------------------Ondas----------------------s*/
-
-.onda-sup {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 400px;
-}
-
 @media screen and (min-width: 1300px) and (max-width: 1450px) {
 
     .img-quiz {
