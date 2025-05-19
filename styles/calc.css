@@ -67,6 +67,7 @@ ul {
     gap: 20px 60px;
     justify-content: flex-start;
     margin-bottom: 50px;
+    justify-content: center;
 }
 
 .container-calc .card-calc:nth-last-child(1):nth-child(odd) {
