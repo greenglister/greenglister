@@ -21,12 +21,13 @@ p {
 
 .resultado{
     margin-top: -150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .titulo{
-    top: 0;
     margin-top: 40px;
-    position: absolute;
     width: 700px;
     text-align: center;
     border-radius: 20px;
@@ -147,6 +148,14 @@ p {
     bottom: 30px;
     right: 10px;
     width: 250px;
+    z-index: -1;
+}
+
+.onda-sup{
+    width: 470px;
+    position: absolute;
+    left: 0;
+    top: 0;
     z-index: -1;
 }
 
